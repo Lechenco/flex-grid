@@ -1,0 +1,25 @@
+<style>
+    .parent {
+        display: grid;
+        grid-template-columns: minmax(125px, 25%) 1fr;
+    }
+    .section {
+        padding: 15px;
+    }
+    .orange {
+        background-color: lightsalmon;
+    }
+    .purple {
+        background-color: plum;
+    }
+</style>
+<div class="parent">
+    <div class="section orange" contenteditable>
+        Min: 125px / Max: 25%
+    </div>
+    <div class="section purple" contenteditable>
+        This is a long paragraph with 1fr
+        
+        Sed lobortis, risus sodales pretium convallis, felis est lacinia dui, vitae ullamcorper est sem et risus. Fusce lobortis, orci in scelerisque efficitur, nunc enim malesuada velit, sed dignissim nisl libero in nunc. Pellentesque dui mi, mattis id augue vitae, accumsan dignissim erat. Cras interdum elit a tortor rutrum suscipit nec non est. In quis nibh nibh. Sed eu tincidunt ex. Sed dapibus nisl vitae sapien dignissim, quis ultricies neque pharetra. Etiam porttitor urna ut accumsan tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    </div>
+</div>

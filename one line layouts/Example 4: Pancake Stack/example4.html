@@ -1,0 +1,25 @@
+<style>
+    .parent {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+    }
+    .section {
+        padding: 10px;
+    }
+    .blue {
+        background-color: lightskyblue;
+    }
+    .purple {
+        background-color: rgb(185, 175, 252);
+    }
+    .coral {
+        background-color: lightsalmon;
+    }
+</style>
+
+<div class="parent">
+    <header class="blue section" contenteditable>Header</header>
+    <main class="section coral" contenteditable>Main</main>
+    <footer class="purple section" contenteditable>Footer</footer>
+</div>

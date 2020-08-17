@@ -1,0 +1,29 @@
+<style>
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pancake {
+        flex: 0 1 150px; /* no stretching */
+        flex: 1 1 150px; /* Stretching */
+    }
+    .box {
+        margin: 5px;
+        padding: 1rem;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .grey {
+        background-color: grey;
+    }
+    .green {
+        background-color: lightgreen;
+    }
+</style>
+
+<div class="parent grey">
+    <div class="box pancake green">1</div>
+    <div class="box pancake green">2</div>
+    <div class="box pancake green">3</div>
+</div>
